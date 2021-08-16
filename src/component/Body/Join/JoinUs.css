@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-color: rgb(150, 177, 150);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(7,59,7);
+    font-family: 'Courier New';
+}
+
+.bg-container > h1{
+     font-size: 2.5rem;
+     margin: 0 10%;
+ }
+
+
+.btns {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.btns .btn {
+    margin: 6px;
+}

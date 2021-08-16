@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    overflow: hidden;
+    height: 15vh;
+    background-color: white;
+}
+
+.logo img{
+    height: 5em;
+    position: absolute;
+    top: 3px;
+    left: 25%;
+}
+.club h2{
+    position: absolute;
+    top: 5px;
+    font-weight: bolder;
+    left: 35%;
+    margin: 20px 15px;
+    font-size: 2rem;
+    color: rgb(7, 59, 7);
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-family: Courier;
+}
+
+@media only screen and (max-width : 1200px) {
+    .logo img{
+        left: 0%;
+    }
+    .club h2{
+        left: 10%;
+    }
+}
+@media only screen and (max-width : 960px) {
+    .club, .logo, header{
+        display: none;
+    }
+}

@@ -20,12 +20,7 @@
  }
 
 
-.btns {
+.btn {
     margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-}
-  
-.btns .btn {
-    margin: 6px;
+    border-radius: 30px;
 }

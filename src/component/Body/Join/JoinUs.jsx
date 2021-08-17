@@ -7,20 +7,11 @@ function JoinUs() {
         <section className="bg-container">
         <h1>JOIN US</h1>
         <div className="btns">
-            <span>
             <Button 
                 className="btn btn--outline btn--large" 
                 onClick={()=>{console.log('btn-P')}}>
-                VOLUNTEER
+                &#62;&#62;&#62;
             </Button>
-            </span>
-            <span>
-            <Button 
-                className="btn btn--primary btn--large" 
-                onClick={()=>{console.log('btn-J')}}>
-                JOIN US
-            </Button>
-            </span>
         </div>
     </section>
     )

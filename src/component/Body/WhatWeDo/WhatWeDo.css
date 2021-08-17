@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+.Container{
+    margin: 12rem 10rem 10rem 10rem;
+    text-align: center
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5rem;
+    margin: 25px;
+}
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 12px;
+    font-size: large;
+}
+
+@media only screen and (max-width:1024px) {
+    .heading{
+        font-size: 2rem;
+    }
+    .Wrapper{
+        font-size: medium;
+        padding: 0;
+    }
+    .Container{
+        margin: 35px;
+    }
+}

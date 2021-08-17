@@ -1,15 +1,15 @@
 import "./App.css";
-import Logo from './component/Logo/Logo'
+import Logo from './component/Logo/Logo';
 import Navbar from "./component/Navbar/Navbar";
-import Join from "./component/Body/Join/JoinUs";
-import Footer from './component/Footer/Footer'
+import Body from "./component/Body/Body/Body";
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Logo/>
       <Navbar/>
-      <Join/>
+      <Body/>
       <Footer/>
     </div>
   );

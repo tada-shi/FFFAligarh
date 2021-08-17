@@ -11,12 +11,13 @@
     font-family: 'Courier New';
     font-size: 1.2rem;
     font-weight: bold;
+    margin: 0 12px;
   }
   
   .btn--primary {
     background-color: var(--primary);
     color: rgb(143, 209, 143);
-    border: 2px solid var(--primary);
+    border: 1px solid var(--primary);
   }
   
   .btn--outline {

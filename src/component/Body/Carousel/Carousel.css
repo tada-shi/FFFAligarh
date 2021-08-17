@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+
+.wrapper{
+    height: 70vh;
+    display: flex;
+}
+
+.wrapper div{
+    flex-basis: 65%;
+    overflow: hidden;
+    clip-path: polygon( 0% 50%,20% 100%, 100% 100% , 80% 50%, 100% 0%, 20% 0%);
+    margin-left:-6%;
+    opacity: 0.8;
+}
+.wrapper div:last-child{
+    clip-path: polygon( 0% 50%,20% 100%, 100% 100% , 99% 50%, 100% 0%, 20% 0%);
+}
+.who-we-are{
+    background-color: #2E8B57;
+    
+}
+.what-we-do{
+    background-color: #808000;
+}
+.why-we-do{
+    background-color: #556B2F;
+}
+.what-can-you-do{
+    background-color: #6B8E23;
+}
+
+
+@media  only screen and (max-width: 1024px) {
+    .wrapper{
+        background-color: #808000;
+        height: 50vh;
+    }
+    .wrapper div{
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+.tweet-wrapper{
+    height: 480px;
+    width: 240px;
+    align-items: center;
+    background-color: rgb(155, 167, 155);
+    justify-content: center;
+    margin: 18px;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+.red{
+    background-color: red;
+    height: 160px;
+    width: 160px;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.marine{
+    background-color: mediumaquamarine;
+}
+.royalblue{
+    background-color: royalblue;
+}
+.royalblue{
+    background-color: rgb(196, 193, 193);
+}
+
+#tweet-content{
+    position: relative;
+    top: 10%;
+    left: 8%;
+    border-radius: 20px;
+    opacity: 0.3;
+    height: 45%;
+    width: 85%;
+}
+
+/* @media screen and (max-width : 500px) {
+    #tweet-content{
+
+    }
+} */
